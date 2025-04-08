@@ -9,9 +9,9 @@
     <Grid>
         <DataGrid ItemsSource="{Binding CurrentHotels}" AutoGenerateColumns="False">
             <DataGrid.Columns>
-                <DataGridTextColumn Binding="{Binding Id}" Header="Id" Width="auto"></DataGridTextColumn>
-                <DataGridTextColumn Binding="{Binding Name}" Header="Name" Width="*"></DataGridTextColumn>
-                <DataGridTextColumn Binding="{Binding CountOfState}" Header="CountOfState" Width="auto"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Id}" Header="MyId" Width="auto"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Name}" Header="MyName" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding CountOfState}" Header="MyCountOfState" Width="auto"></DataGridTextColumn>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>
